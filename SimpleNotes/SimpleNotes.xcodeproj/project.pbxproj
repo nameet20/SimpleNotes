@@ -1,0 +1,987 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5914F4CF207A18A1007A79E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F4CE207A18A1007A79E6 /* AppDelegate.swift */; };
+		5914F4D4207A18A1007A79E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5914F4D2207A18A1007A79E6 /* Main.storyboard */; };
+		5914F4D7207A18A1007A79E6 /* SimpleNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5914F4D5207A18A1007A79E6 /* SimpleNotes.xcdatamodeld */; };
+		5914F4D9207A18A1007A79E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5914F4D8207A18A1007A79E6 /* Assets.xcassets */; };
+		5914F4DC207A18A1007A79E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5914F4DA207A18A1007A79E6 /* LaunchScreen.storyboard */; };
+		5914F4E7207A18A1007A79E6 /* SimpleNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F4E6207A18A1007A79E6 /* SimpleNotesTests.swift */; };
+		5914F4F2207A18A1007A79E6 /* SimpleNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F4F1207A18A1007A79E6 /* SimpleNotesUITests.swift */; };
+		5914F500207A194E007A79E6 /* NotesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F4FF207A194E007A79E6 /* NotesListTableViewController.swift */; };
+		5914F501207A194E007A79E6 /* NotesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F4FF207A194E007A79E6 /* NotesListTableViewController.swift */; };
+		5914F502207A194E007A79E6 /* NotesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F4FF207A194E007A79E6 /* NotesListTableViewController.swift */; };
+		5914F504207A197D007A79E6 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F503207A197D007A79E6 /* NoteViewController.swift */; };
+		5914F505207A197D007A79E6 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F503207A197D007A79E6 /* NoteViewController.swift */; };
+		5914F506207A197D007A79E6 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F503207A197D007A79E6 /* NoteViewController.swift */; };
+		5914F508207A1FE9007A79E6 /* NoteListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F507207A1FE9007A79E6 /* NoteListTableCell.swift */; };
+		5914F509207A1FE9007A79E6 /* NoteListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F507207A1FE9007A79E6 /* NoteListTableCell.swift */; };
+		5914F50A207A1FE9007A79E6 /* NoteListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F507207A1FE9007A79E6 /* NoteListTableCell.swift */; };
+		5914F50C207A2BC6007A79E6 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F50B207A2BC6007A79E6 /* Validations.swift */; };
+		5914F50D207A2BC6007A79E6 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F50B207A2BC6007A79E6 /* Validations.swift */; };
+		5914F50E207A2BC6007A79E6 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F50B207A2BC6007A79E6 /* Validations.swift */; };
+		5914F51A207A3378007A79E6 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5914F512207A3378007A79E6 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		5914F51B207A3378007A79E6 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5914F512207A3378007A79E6 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		5914F51C207A3378007A79E6 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5914F512207A3378007A79E6 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		5914F51D207A3378007A79E6 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5914F513207A3378007A79E6 /* TPKeyboardAvoidingTableView.m */; };
+		5914F51E207A3378007A79E6 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5914F513207A3378007A79E6 /* TPKeyboardAvoidingTableView.m */; };
+		5914F51F207A3378007A79E6 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5914F513207A3378007A79E6 /* TPKeyboardAvoidingTableView.m */; };
+		5914F520207A3378007A79E6 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5914F514207A3378007A79E6 /* TPKeyboardAvoidingScrollView.m */; };
+		5914F521207A3378007A79E6 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5914F514207A3378007A79E6 /* TPKeyboardAvoidingScrollView.m */; };
+		5914F522207A3378007A79E6 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5914F514207A3378007A79E6 /* TPKeyboardAvoidingScrollView.m */; };
+		5914F52C207A80C9007A79E6 /* NoteDO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F52B207A80C9007A79E6 /* NoteDO.swift */; };
+		5914F52D207A80C9007A79E6 /* NoteDO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F52B207A80C9007A79E6 /* NoteDO.swift */; };
+		5914F52E207A80C9007A79E6 /* NoteDO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F52B207A80C9007A79E6 /* NoteDO.swift */; };
+		5914F535207A8DC3007A79E6 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F534207A8DC3007A79E6 /* ConnectionManager.swift */; };
+		5914F536207A8DC3007A79E6 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F534207A8DC3007A79E6 /* ConnectionManager.swift */; };
+		5914F537207A8DC3007A79E6 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F534207A8DC3007A79E6 /* ConnectionManager.swift */; };
+		5914F53A207A8E25007A79E6 /* NotesAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F539207A8E25007A79E6 /* NotesAPIManager.swift */; };
+		5914F53B207A8E25007A79E6 /* NotesAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F539207A8E25007A79E6 /* NotesAPIManager.swift */; };
+		5914F53C207A8E25007A79E6 /* NotesAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F539207A8E25007A79E6 /* NotesAPIManager.swift */; };
+		5914F541207A9442007A79E6 /* WebServiceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F540207A9442007A79E6 /* WebServiceConstants.swift */; };
+		5914F542207A9442007A79E6 /* WebServiceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F540207A9442007A79E6 /* WebServiceConstants.swift */; };
+		5914F543207A9442007A79E6 /* WebServiceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F540207A9442007A79E6 /* WebServiceConstants.swift */; };
+		5914F545207A9451007A79E6 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F544207A9451007A79E6 /* AppConstants.swift */; };
+		5914F546207A9451007A79E6 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F544207A9451007A79E6 /* AppConstants.swift */; };
+		5914F547207A9451007A79E6 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914F544207A9451007A79E6 /* AppConstants.swift */; };
+		5914F549207B3180007A79E6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5914F548207B3180007A79E6 /* Localizable.strings */; };
+		5914F54A207B3180007A79E6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5914F548207B3180007A79E6 /* Localizable.strings */; };
+		5914F54B207B3180007A79E6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5914F548207B3180007A79E6 /* Localizable.strings */; };
+		593A77E8207BDE9800513F29 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593A77E7207BDE9800513F29 /* DataStore.swift */; };
+		593A77E9207BDE9800513F29 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593A77E7207BDE9800513F29 /* DataStore.swift */; };
+		593A77EA207BDE9800513F29 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593A77E7207BDE9800513F29 /* DataStore.swift */; };
+		B43204151B2FA2B5259013D9 /* Pods_SimpleNotesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6042B47326946DC6B37526E1 /* Pods_SimpleNotesTests.framework */; };
+		B954C4DF59CAE17CE4C4C786 /* Pods_SimpleNotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1359ABFBECC0782C4AA58A /* Pods_SimpleNotes.framework */; };
+		BEC378FB23BDF0FA4C3F3A0F /* Pods_SimpleNotesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A8EA171CD95A49FAD06524 /* Pods_SimpleNotesUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5914F4E3207A18A1007A79E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5914F4C3207A18A1007A79E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5914F4CA207A18A1007A79E6;
+			remoteInfo = SimpleNotes;
+		};
+		5914F4EE207A18A1007A79E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5914F4C3207A18A1007A79E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5914F4CA207A18A1007A79E6;
+			remoteInfo = SimpleNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48DFFE052C120F098D14B196 /* Pods-SimpleNotesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNotesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNotesUITests/Pods-SimpleNotesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5914F4CB207A18A1007A79E6 /* SimpleNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5914F4CE207A18A1007A79E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5914F4D3207A18A1007A79E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5914F4D6207A18A1007A79E6 /* SimpleNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleNotes.xcdatamodel; sourceTree = "<group>"; };
+		5914F4D8207A18A1007A79E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5914F4DB207A18A1007A79E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5914F4DD207A18A1007A79E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5914F4E2207A18A1007A79E6 /* SimpleNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5914F4E6207A18A1007A79E6 /* SimpleNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNotesTests.swift; sourceTree = "<group>"; };
+		5914F4E8207A18A1007A79E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5914F4ED207A18A1007A79E6 /* SimpleNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5914F4F1207A18A1007A79E6 /* SimpleNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNotesUITests.swift; sourceTree = "<group>"; };
+		5914F4F3207A18A1007A79E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5914F4FF207A194E007A79E6 /* NotesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListTableViewController.swift; sourceTree = "<group>"; };
+		5914F503207A197D007A79E6 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		5914F507207A1FE9007A79E6 /* NoteListTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListTableCell.swift; sourceTree = "<group>"; };
+		5914F50B207A2BC6007A79E6 /* Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
+		5914F511207A3378007A79E6 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		5914F512207A3378007A79E6 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		5914F513207A3378007A79E6 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		5914F514207A3378007A79E6 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		5914F516207A3378007A79E6 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		5914F517207A3378007A79E6 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		5914F528207A34D5007A79E6 /* SimpleNotes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleNotes-Bridging-Header.h"; sourceTree = "<group>"; };
+		5914F529207A3508007A79E6 /* SimpleNotesTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleNotesTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		5914F52A207A3518007A79E6 /* SimpleNotesUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleNotesUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		5914F52B207A80C9007A79E6 /* NoteDO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDO.swift; sourceTree = "<group>"; };
+		5914F534207A8DC3007A79E6 /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		5914F539207A8E25007A79E6 /* NotesAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesAPIManager.swift; sourceTree = "<group>"; };
+		5914F540207A9442007A79E6 /* WebServiceConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceConstants.swift; sourceTree = "<group>"; };
+		5914F544207A9451007A79E6 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		5914F548207B3180007A79E6 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		593A77E7207BDE9800513F29 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		5E868D86286726025E32DA88 /* Pods-SimpleNotesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNotesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNotesUITests/Pods-SimpleNotesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F205E2E3C21F92538686079 /* Pods-SimpleNotesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNotesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNotesTests/Pods-SimpleNotesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6042B47326946DC6B37526E1 /* Pods_SimpleNotesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleNotesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62EC121342B9EFFACD951144 /* Pods-SimpleNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNotes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNotes/Pods-SimpleNotes.debug.xcconfig"; sourceTree = "<group>"; };
+		8B83635F713F07A2BA23B2DE /* Pods-SimpleNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNotes.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNotes/Pods-SimpleNotes.release.xcconfig"; sourceTree = "<group>"; };
+		F0A8EA171CD95A49FAD06524 /* Pods_SimpleNotesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleNotesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CC0A09D78F6E34A9E26F8B /* Pods-SimpleNotesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNotesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNotesTests/Pods-SimpleNotesTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB1359ABFBECC0782C4AA58A /* Pods_SimpleNotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleNotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5914F4C8207A18A1007A79E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B954C4DF59CAE17CE4C4C786 /* Pods_SimpleNotes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5914F4DF207A18A1007A79E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43204151B2FA2B5259013D9 /* Pods_SimpleNotesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5914F4EA207A18A1007A79E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC378FB23BDF0FA4C3F3A0F /* Pods_SimpleNotesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E5BEB9EAC7DC67C4AF7DE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB1359ABFBECC0782C4AA58A /* Pods_SimpleNotes.framework */,
+				6042B47326946DC6B37526E1 /* Pods_SimpleNotesTests.framework */,
+				F0A8EA171CD95A49FAD06524 /* Pods_SimpleNotesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5914F4C2207A18A1007A79E6 = {
+			isa = PBXGroup;
+			children = (
+				5914F4CD207A18A1007A79E6 /* SimpleNotes */,
+				5914F4E5207A18A1007A79E6 /* SimpleNotesTests */,
+				5914F4F0207A18A1007A79E6 /* SimpleNotesUITests */,
+				5914F4CC207A18A1007A79E6 /* Products */,
+				F09F91F45F1E6023A63F69F9 /* Pods */,
+				04E5BEB9EAC7DC67C4AF7DE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5914F4CC207A18A1007A79E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5914F4CB207A18A1007A79E6 /* SimpleNotes.app */,
+				5914F4E2207A18A1007A79E6 /* SimpleNotesTests.xctest */,
+				5914F4ED207A18A1007A79E6 /* SimpleNotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5914F4CD207A18A1007A79E6 /* SimpleNotes */ = {
+			isa = PBXGroup;
+			children = (
+				5914F53F207A941B007A79E6 /* Constants */,
+				5914F53E207A9223007A79E6 /* Storyboards */,
+				5914F530207A8438007A79E6 /* ViewControllers */,
+				5914F533207A8485007A79E6 /* DataObjects */,
+				5914F538207A8DCB007A79E6 /* APIManager */,
+				5914F532207A8470007A79E6 /* Helpers */,
+				5914F531207A845D007A79E6 /* TableCells */,
+				5914F53D207A919B007A79E6 /* ResourceFiles */,
+				5914F50F207A3360007A79E6 /* ThirdParty */,
+				5914F548207B3180007A79E6 /* Localizable.strings */,
+			);
+			path = SimpleNotes;
+			sourceTree = "<group>";
+		};
+		5914F4E5207A18A1007A79E6 /* SimpleNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5914F4E6207A18A1007A79E6 /* SimpleNotesTests.swift */,
+				5914F4E8207A18A1007A79E6 /* Info.plist */,
+			);
+			path = SimpleNotesTests;
+			sourceTree = "<group>";
+		};
+		5914F4F0207A18A1007A79E6 /* SimpleNotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5914F4F1207A18A1007A79E6 /* SimpleNotesUITests.swift */,
+				5914F4F3207A18A1007A79E6 /* Info.plist */,
+			);
+			path = SimpleNotesUITests;
+			sourceTree = "<group>";
+		};
+		5914F50F207A3360007A79E6 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				5914F510207A3378007A79E6 /* TPKeyboardAvoiding */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		5914F510207A3378007A79E6 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				5914F511207A3378007A79E6 /* TPKeyboardAvoidingScrollView.h */,
+				5914F512207A3378007A79E6 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				5914F513207A3378007A79E6 /* TPKeyboardAvoidingTableView.m */,
+				5914F514207A3378007A79E6 /* TPKeyboardAvoidingScrollView.m */,
+				5914F516207A3378007A79E6 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				5914F517207A3378007A79E6 /* TPKeyboardAvoidingTableView.h */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		5914F530207A8438007A79E6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5914F4FF207A194E007A79E6 /* NotesListTableViewController.swift */,
+				5914F503207A197D007A79E6 /* NoteViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5914F531207A845D007A79E6 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				5914F507207A1FE9007A79E6 /* NoteListTableCell.swift */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		5914F532207A8470007A79E6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5914F534207A8DC3007A79E6 /* ConnectionManager.swift */,
+				5914F50B207A2BC6007A79E6 /* Validations.swift */,
+				593A77E7207BDE9800513F29 /* DataStore.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5914F533207A8485007A79E6 /* DataObjects */ = {
+			isa = PBXGroup;
+			children = (
+				5914F52B207A80C9007A79E6 /* NoteDO.swift */,
+			);
+			path = DataObjects;
+			sourceTree = "<group>";
+		};
+		5914F538207A8DCB007A79E6 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				5914F539207A8E25007A79E6 /* NotesAPIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		5914F53D207A919B007A79E6 /* ResourceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5914F4CE207A18A1007A79E6 /* AppDelegate.swift */,
+				5914F528207A34D5007A79E6 /* SimpleNotes-Bridging-Header.h */,
+				5914F529207A3508007A79E6 /* SimpleNotesTests-Bridging-Header.h */,
+				5914F52A207A3518007A79E6 /* SimpleNotesUITests-Bridging-Header.h */,
+				5914F4D8207A18A1007A79E6 /* Assets.xcassets */,
+				5914F4DD207A18A1007A79E6 /* Info.plist */,
+				5914F4D5207A18A1007A79E6 /* SimpleNotes.xcdatamodeld */,
+			);
+			name = ResourceFiles;
+			sourceTree = "<group>";
+		};
+		5914F53E207A9223007A79E6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5914F4D2207A18A1007A79E6 /* Main.storyboard */,
+				5914F4DA207A18A1007A79E6 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		5914F53F207A941B007A79E6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				5914F540207A9442007A79E6 /* WebServiceConstants.swift */,
+				5914F544207A9451007A79E6 /* AppConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F09F91F45F1E6023A63F69F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62EC121342B9EFFACD951144 /* Pods-SimpleNotes.debug.xcconfig */,
+				8B83635F713F07A2BA23B2DE /* Pods-SimpleNotes.release.xcconfig */,
+				5F205E2E3C21F92538686079 /* Pods-SimpleNotesTests.debug.xcconfig */,
+				F8CC0A09D78F6E34A9E26F8B /* Pods-SimpleNotesTests.release.xcconfig */,
+				5E868D86286726025E32DA88 /* Pods-SimpleNotesUITests.debug.xcconfig */,
+				48DFFE052C120F098D14B196 /* Pods-SimpleNotesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5914F4CA207A18A1007A79E6 /* SimpleNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5914F4F6207A18A1007A79E6 /* Build configuration list for PBXNativeTarget "SimpleNotes" */;
+			buildPhases = (
+				B70E4E7825D62066E0BA9D99 /* [CP] Check Pods Manifest.lock */,
+				5914F4C7207A18A1007A79E6 /* Sources */,
+				5914F4C8207A18A1007A79E6 /* Frameworks */,
+				5914F4C9207A18A1007A79E6 /* Resources */,
+				EACC1D155ECA0BEDFF84F510 /* [CP] Embed Pods Frameworks */,
+				9A8FC257CE81E613BE3AB84C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleNotes;
+			productName = SimpleNotes;
+			productReference = 5914F4CB207A18A1007A79E6 /* SimpleNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5914F4E1207A18A1007A79E6 /* SimpleNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5914F4F9207A18A1007A79E6 /* Build configuration list for PBXNativeTarget "SimpleNotesTests" */;
+			buildPhases = (
+				9F7394188BE6A8F3A3C3F6CF /* [CP] Check Pods Manifest.lock */,
+				5914F4DE207A18A1007A79E6 /* Sources */,
+				5914F4DF207A18A1007A79E6 /* Frameworks */,
+				5914F4E0207A18A1007A79E6 /* Resources */,
+				92112C60DF3E9E23496E480E /* [CP] Embed Pods Frameworks */,
+				BCE550103A8F88521E5FE23F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5914F4E4207A18A1007A79E6 /* PBXTargetDependency */,
+			);
+			name = SimpleNotesTests;
+			productName = SimpleNotesTests;
+			productReference = 5914F4E2207A18A1007A79E6 /* SimpleNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5914F4EC207A18A1007A79E6 /* SimpleNotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5914F4FC207A18A1007A79E6 /* Build configuration list for PBXNativeTarget "SimpleNotesUITests" */;
+			buildPhases = (
+				C1A641E4EB6EEDBDEBA22F30 /* [CP] Check Pods Manifest.lock */,
+				5914F4E9207A18A1007A79E6 /* Sources */,
+				5914F4EA207A18A1007A79E6 /* Frameworks */,
+				5914F4EB207A18A1007A79E6 /* Resources */,
+				3F5795D01AB95671415D4972 /* [CP] Embed Pods Frameworks */,
+				10C9AFB22C4578C92AC0053F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5914F4EF207A18A1007A79E6 /* PBXTargetDependency */,
+			);
+			name = SimpleNotesUITests;
+			productName = SimpleNotesUITests;
+			productReference = 5914F4ED207A18A1007A79E6 /* SimpleNotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5914F4C3207A18A1007A79E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Nameet;
+				TargetAttributes = {
+					5914F4CA207A18A1007A79E6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5914F4E1207A18A1007A79E6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5914F4CA207A18A1007A79E6;
+					};
+					5914F4EC207A18A1007A79E6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5914F4CA207A18A1007A79E6;
+					};
+				};
+			};
+			buildConfigurationList = 5914F4C6207A18A1007A79E6 /* Build configuration list for PBXProject "SimpleNotes" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5914F4C2207A18A1007A79E6;
+			productRefGroup = 5914F4CC207A18A1007A79E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5914F4CA207A18A1007A79E6 /* SimpleNotes */,
+				5914F4E1207A18A1007A79E6 /* SimpleNotesTests */,
+				5914F4EC207A18A1007A79E6 /* SimpleNotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5914F4C9207A18A1007A79E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5914F4DC207A18A1007A79E6 /* LaunchScreen.storyboard in Resources */,
+				5914F549207B3180007A79E6 /* Localizable.strings in Resources */,
+				5914F4D9207A18A1007A79E6 /* Assets.xcassets in Resources */,
+				5914F4D4207A18A1007A79E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5914F4E0207A18A1007A79E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5914F54A207B3180007A79E6 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5914F4EB207A18A1007A79E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5914F54B207B3180007A79E6 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10C9AFB22C4578C92AC0053F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleNotesUITests/Pods-SimpleNotesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F5795D01AB95671415D4972 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleNotesUITests/Pods-SimpleNotesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92112C60DF3E9E23496E480E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleNotesTests/Pods-SimpleNotesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A8FC257CE81E613BE3AB84C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleNotes/Pods-SimpleNotes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F7394188BE6A8F3A3C3F6CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleNotesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B70E4E7825D62066E0BA9D99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleNotes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCE550103A8F88521E5FE23F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleNotesTests/Pods-SimpleNotesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A641E4EB6EEDBDEBA22F30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleNotesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EACC1D155ECA0BEDFF84F510 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpleNotes/Pods-SimpleNotes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleNotes/Pods-SimpleNotes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5914F4C7207A18A1007A79E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593A77E8207BDE9800513F29 /* DataStore.swift in Sources */,
+				5914F508207A1FE9007A79E6 /* NoteListTableCell.swift in Sources */,
+				5914F51D207A3378007A79E6 /* TPKeyboardAvoidingTableView.m in Sources */,
+				5914F52C207A80C9007A79E6 /* NoteDO.swift in Sources */,
+				5914F500207A194E007A79E6 /* NotesListTableViewController.swift in Sources */,
+				5914F4CF207A18A1007A79E6 /* AppDelegate.swift in Sources */,
+				5914F51A207A3378007A79E6 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				5914F504207A197D007A79E6 /* NoteViewController.swift in Sources */,
+				5914F520207A3378007A79E6 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				5914F50C207A2BC6007A79E6 /* Validations.swift in Sources */,
+				5914F541207A9442007A79E6 /* WebServiceConstants.swift in Sources */,
+				5914F535207A8DC3007A79E6 /* ConnectionManager.swift in Sources */,
+				5914F545207A9451007A79E6 /* AppConstants.swift in Sources */,
+				5914F53A207A8E25007A79E6 /* NotesAPIManager.swift in Sources */,
+				5914F4D7207A18A1007A79E6 /* SimpleNotes.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5914F4DE207A18A1007A79E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5914F509207A1FE9007A79E6 /* NoteListTableCell.swift in Sources */,
+				5914F521207A3378007A79E6 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				5914F51B207A3378007A79E6 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				5914F51E207A3378007A79E6 /* TPKeyboardAvoidingTableView.m in Sources */,
+				5914F542207A9442007A79E6 /* WebServiceConstants.swift in Sources */,
+				5914F4E7207A18A1007A79E6 /* SimpleNotesTests.swift in Sources */,
+				5914F536207A8DC3007A79E6 /* ConnectionManager.swift in Sources */,
+				5914F505207A197D007A79E6 /* NoteViewController.swift in Sources */,
+				5914F52D207A80C9007A79E6 /* NoteDO.swift in Sources */,
+				5914F501207A194E007A79E6 /* NotesListTableViewController.swift in Sources */,
+				5914F546207A9451007A79E6 /* AppConstants.swift in Sources */,
+				5914F53B207A8E25007A79E6 /* NotesAPIManager.swift in Sources */,
+				593A77E9207BDE9800513F29 /* DataStore.swift in Sources */,
+				5914F50D207A2BC6007A79E6 /* Validations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5914F4E9207A18A1007A79E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5914F50A207A1FE9007A79E6 /* NoteListTableCell.swift in Sources */,
+				5914F522207A3378007A79E6 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				5914F51C207A3378007A79E6 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				5914F51F207A3378007A79E6 /* TPKeyboardAvoidingTableView.m in Sources */,
+				5914F543207A9442007A79E6 /* WebServiceConstants.swift in Sources */,
+				5914F4F2207A18A1007A79E6 /* SimpleNotesUITests.swift in Sources */,
+				5914F537207A8DC3007A79E6 /* ConnectionManager.swift in Sources */,
+				5914F506207A197D007A79E6 /* NoteViewController.swift in Sources */,
+				5914F52E207A80C9007A79E6 /* NoteDO.swift in Sources */,
+				5914F502207A194E007A79E6 /* NotesListTableViewController.swift in Sources */,
+				5914F547207A9451007A79E6 /* AppConstants.swift in Sources */,
+				5914F53C207A8E25007A79E6 /* NotesAPIManager.swift in Sources */,
+				593A77EA207BDE9800513F29 /* DataStore.swift in Sources */,
+				5914F50E207A2BC6007A79E6 /* Validations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5914F4E4207A18A1007A79E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5914F4CA207A18A1007A79E6 /* SimpleNotes */;
+			targetProxy = 5914F4E3207A18A1007A79E6 /* PBXContainerItemProxy */;
+		};
+		5914F4EF207A18A1007A79E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5914F4CA207A18A1007A79E6 /* SimpleNotes */;
+			targetProxy = 5914F4EE207A18A1007A79E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5914F4D2207A18A1007A79E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5914F4D3207A18A1007A79E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5914F4DA207A18A1007A79E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5914F4DB207A18A1007A79E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5914F4F4207A18A1007A79E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5914F4F5207A18A1007A79E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5914F4F7207A18A1007A79E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62EC121342B9EFFACD951144 /* Pods-SimpleNotes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleNotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nameet.SimpleNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleNotes/SimpleNotes-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5914F4F8207A18A1007A79E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B83635F713F07A2BA23B2DE /* Pods-SimpleNotes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleNotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nameet.SimpleNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleNotes/SimpleNotes-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5914F4FA207A18A1007A79E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F205E2E3C21F92538686079 /* Pods-SimpleNotesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nameet.SimpleNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleNotes.app/SimpleNotes";
+			};
+			name = Debug;
+		};
+		5914F4FB207A18A1007A79E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8CC0A09D78F6E34A9E26F8B /* Pods-SimpleNotesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nameet.SimpleNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleNotes.app/SimpleNotes";
+			};
+			name = Release;
+		};
+		5914F4FD207A18A1007A79E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E868D86286726025E32DA88 /* Pods-SimpleNotesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleNotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nameet.SimpleNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleNotes;
+			};
+			name = Debug;
+		};
+		5914F4FE207A18A1007A79E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48DFFE052C120F098D14B196 /* Pods-SimpleNotesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleNotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nameet.SimpleNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleNotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5914F4C6207A18A1007A79E6 /* Build configuration list for PBXProject "SimpleNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5914F4F4207A18A1007A79E6 /* Debug */,
+				5914F4F5207A18A1007A79E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5914F4F6207A18A1007A79E6 /* Build configuration list for PBXNativeTarget "SimpleNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5914F4F7207A18A1007A79E6 /* Debug */,
+				5914F4F8207A18A1007A79E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5914F4F9207A18A1007A79E6 /* Build configuration list for PBXNativeTarget "SimpleNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5914F4FA207A18A1007A79E6 /* Debug */,
+				5914F4FB207A18A1007A79E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5914F4FC207A18A1007A79E6 /* Build configuration list for PBXNativeTarget "SimpleNotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5914F4FD207A18A1007A79E6 /* Debug */,
+				5914F4FE207A18A1007A79E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5914F4D5207A18A1007A79E6 /* SimpleNotes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5914F4D6207A18A1007A79E6 /* SimpleNotes.xcdatamodel */,
+			);
+			currentVersion = 5914F4D6207A18A1007A79E6 /* SimpleNotes.xcdatamodel */;
+			path = SimpleNotes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5914F4C3207A18A1007A79E6 /* Project object */;
+}

@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  SimpleNotes
+
+  Created by Nameet Bhave on 4/9/18.
+  Copyright © 2018 Nameet. All rights reserved.
+*/
+
+"enter.title" = "Please enter a title for the note";
+"enter.content" = "Please enter content for the note";
+
+"ok" = "OK";
